@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+
+}
+
+.sub-title{
+    text-align: center;
+    
+}
+
+.form{
+    width: 700px;
+    align-self: center;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+    /* margin-right: 100px; */
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px;
+
+
+}
+
+.form-head{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.form-user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px;
+}
+
+.name{ 
+    color: black;
+    font-weight: bold;
+}
+
+.username{ 
+    color: gray;
+
+}
+
+.fields{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    
+}
+
+
+.form-area{
+    margin-top: 6px;
+}
+
+.form-duvida{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+
+.form-duvida-txt{
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-bottom: 8px;
+
+}
+
+
+.form-btn-container{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.form-btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(52, 118, 233);
+    padding: 8px 20px;
+    border: 1px solid rgb(52, 118, 233); ;
+    border-radius: 2px;
+    transition: all 0.3s ease-out;
+
+}
+
+.form-btn:hover {
+    transition: all 0.3s ease-out;
+    background: rgb(52, 118, 233);
+    color: #fff;
+    transition: 250ms;
+  }
+  
+
+.feed {
+margin-top: 35px;
+display: flex;
+flex-direction: column;
+
+}
+
+.feed-container {
+  /* background-color: gray; */
+  width: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  align-self: center;
+  padding:15px;
+}
+
+.feed-head{
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.feed-txt{
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.feed-area{
+    text-decoration: underline;
+}
+
+.feed-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}

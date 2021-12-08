@@ -1,0 +1,24 @@
+.feed {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feed-container {
+  /* background-color: gray; */
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  align-self: center;
+  padding:15px;
+}
+
+.feed-head{
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.feed-txt{
+  margin-top: 10px;
+}
