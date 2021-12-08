@@ -98,17 +98,17 @@ function Feed(){
                         </div>
                     </div>
                     <div className="feed-txt">
-                        <p className="feed-area"> Área: {feed[0].area}</p>
+                        <p className="feed-area"> Área: Tributário</p>
                         <p className="duvida">
-                        {feed[0].duvida}
+                         Impostos sobre varejo
                         </p>
                     </div>
                     <div className="icons">
-                        <p className="feed-data">{feed[0].data}</p>
+                        <p className="feed-data">08/12/2021</p>
                     </div>
                 </div>
             </div>
-            <div className="feed">
+            {/* <div className="feed">
                 <div className="feed-container">
                     <div className="feed-head">
                         <img src={user_img} alt="user img" />
@@ -165,9 +165,9 @@ function Feed(){
                     </div>
                     <div className="icons">
                         <p className="feed-data">{feed[4].data}</p>
-                    </div>
-                </div>
-            </div>
+                    </div> */}
+                {/* </div> */}
+            {/* </div> */}
             {/* <DataHandler
               feed={feed}
             /> */}
